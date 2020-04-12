@@ -1,15 +1,26 @@
-def loop_message_five_times(string)
+def loop_message_five_times(message)
+  
   counter = 0
   
   while counter < 5
-    puts string
+    puts message
     counter += 1
   end
 end
 
-def loop_message_n_times(string,n)
+def loop_message_n_times(message, number)
   
   counter = 0
   
-  while counter < n
+  while counter < number
+    puts message
+    counter += 1 
+  end
+end
+
+def output_array(array)
+  
+  counter = 0  
+  
+  while array
   
